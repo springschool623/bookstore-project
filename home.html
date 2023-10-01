@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="icon"
+      href="https://cdn0.fahasa.com/media/favicon/default/favicon4.ico"
+      type="image/x-icon"
+    />
+    <title>Web bán sách</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Đây là phần header chứa logo và menu -->
+      <!-- Sửa đổi phần header để thêm logo, search bar và tag -->
+      <div class="header">
+        <a href="home.html">
+          <!-- Thêm một thẻ img để hiển thị logo của trang web -->
+          <img
+            src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/fahasa-logo.png"
+            alt="Logo"
+            width="260"
+            height="80"
+          />
+        </a>
+
+        <!-- Thêm một thẻ form để tạo thanh search bar -->
+        <form class="search-bar">
+          <!-- Thêm một thẻ input để tạo ô nhập tìm kiếm -->
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Nhập từ khóa..."
+          />
+          <!-- Thêm một thẻ button để tạo nút tìm kiếm -->
+          <button type="submit" class="search-button">
+            <i
+              class="fa-solid fa-magnifying-glass"
+              style="color: #ffffff; font-size: 16px"
+            ></i>
+          </button>
+        </form>
+        <!-- Sửa đổi phần menu để thay đổi các tag -->
+        <ul class="menu">
+          <li>
+            <a href="">
+              <i class="fa-solid fa-book"></i>
+              <span>Danh mục</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>Hỗ trợ</span>
+            </a>
+          </li>
+          <li>
+            <a href="user-account.html">
+              <i class="fa-solid fa-user"></i>
+              <span>Tài khoản</span>
+            </a>
+          </li>
+          <li class="cart">
+            <a href="cart.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>Giỏ hàng</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Đây là phần banner chứa hình nền -->
+      <div class="banner">
+        <div class="main-banner"></div>
+        <div class="sub-banner">
+          <div class="leftsub-banner"></div>
+          <div class="rightsub-banner"></div>
+        </div>
+      </div>
+      <!-- Đây là phần content chứa nội dung chính -->
+      <div class="content">
+        <div class="bestseller-booklist">
+          <h1>Sách bán chạy</h1>
+          <!-- Đây là phần book-list chứa các book-item -->
+          <div class="book-list">
+            <!-- Đây là một book-item chứa hình, tên và giá của một cuốn sách -->
+            <div class="book-item">
+              <img
+                src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                alt="Sách sống đẹp không khó"
+              />
+              <div class="book-info">
+                <span class="book-title">Cây cam ngọt của tôi</span>
+                <label>Tác giả: </label
+                ><span class="book-author">José Mauro de Vasconcelos</span>
+                <label>Giá: </label><span class="book-price">150.000đ</span>
+              </div>
+            </div>
+            <!-- Tương tự, bạn có thể thêm nhiều book-item khác vào đây -->
+            <div class="book-item">
+              <img
+                src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                alt="Sách sống đẹp không khó"
+              />
+              <div class="book-info">
+                <span class="book-title">Cây cam ngọt của tôi</span>
+                <label>Tác giả: </label
+                ><span class="book-author">José Mauro de Vasconcelos</span>
+                <label>Giá: </label><span class="book-price">150.000đ</span>
+              </div>
+            </div>
+            <div class="book-item">
+              <img
+                src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                alt="Sách sống đẹp không khó"
+              />
+              <div class="book-info">
+                <span class="book-title">Cây cam ngọt của tôi</span>
+                <label>Tác giả: </label
+                ><span class="book-author">José Mauro de Vasconcelos</span>
+                <label>Giá: </label><span class="book-price">150.000đ</span>
+              </div>
+            </div>
+            <div class="book-item">
+              <img
+                src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                alt="Sách sống đẹp không khó"
+              />
+              <div class="book-info">
+                <span class="book-title">Cây cam ngọt của tôi</span>
+                <label>Tác giả: </label
+                ><span class="book-author">José Mauro de Vasconcelos</span>
+                <label>Giá: </label><span class="book-price">150.000đ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category-content">
+          <div class="category-list">
+            <h1>Danh mục sản phẩm</h1>
+            <div class="category-item">
+              <span>Tiểu thuyết</span> <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="category-item">
+              <span>Tiểu thuyết</span> <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="category-item">
+              <span>Tiểu thuyết</span> <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="category-item">
+              <span>Tiểu thuyết</span> <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="category-item">
+              <span>Tiểu thuyết</span> <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="category-item">
+              <span>Tiểu thuyết</span> <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+          <div class="list-content">
+            <div class="book-list">
+              <div class="book-item">
+                <img
+                  src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                  alt="Sách sống đẹp không khó"
+                />
+                <div class="book-info">
+                  <span class="book-title">Cây cam ngọt của tôi</span>
+                  <label>Tác giả: </label
+                  ><span class="book-author">José Mauro de Vasconcelos</span>
+                  <label>Giá: </label><span class="book-price">150.000đ</span>
+                </div>
+              </div>
+              <div class="book-item">
+                <img
+                  src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                  alt="Sách sống đẹp không khó"
+                />
+                <div class="book-info">
+                  <span class="book-title">Cây cam ngọt của tôi</span>
+                  <label>Tác giả: </label
+                  ><span class="book-author">José Mauro de Vasconcelos</span>
+                  <label>Giá: </label><span class="book-price">150.000đ</span>
+                </div>
+              </div>
+              <div class="book-item">
+                <img
+                  src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                  alt="Sách sống đẹp không khó"
+                />
+                <div class="book-info">
+                  <span class="book-title">Cây cam ngọt của tôi</span>
+                  <label>Tác giả: </label
+                  ><span class="book-author">José Mauro de Vasconcelos</span>
+                  <label>Giá: </label><span class="book-price">150.000đ</span>
+                </div>
+              </div>
+              <div class="book-item">
+                <img
+                  src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                  alt="Sách sống đẹp không khó"
+                />
+                <div class="book-info">
+                  <span class="book-title">Cây cam ngọt của tôi</span>
+                  <label>Tác giả: </label
+                  ><span class="book-author">José Mauro de Vasconcelos</span>
+                  <label>Giá: </label><span class="book-price">150.000đ</span>
+                </div>
+              </div>
+              <div class="book-item">
+                <img
+                  src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                  alt="Sách sống đẹp không khó"
+                />
+                <div class="book-info">
+                  <span class="book-title">Cây cam ngọt của tôi</span>
+                  <label>Tác giả: </label
+                  ><span class="book-author">José Mauro de Vasconcelos</span>
+                  <label>Giá: </label><span class="book-price">150.000đ</span>
+                </div>
+              </div>
+              <div class="book-item">
+                <img
+                  src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                  alt="Sách sống đẹp không khó"
+                />
+                <div class="book-info">
+                  <span class="book-title">Cây cam ngọt của tôi</span>
+                  <label>Tác giả: </label
+                  ><span class="book-author">José Mauro de Vasconcelos</span>
+                  <label>Giá: </label><span class="book-price">150.000đ</span>
+                </div>
+              </div>
+              <div class="book-item">
+                <img
+                  src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                  alt="Sách sống đẹp không khó"
+                />
+                <div class="book-info">
+                  <span class="book-title">Cây cam ngọt của tôi</span>
+                  <label>Tác giả: </label
+                  ><span class="book-author">José Mauro de Vasconcelos</span>
+                  <label>Giá: </label><span class="book-price">150.000đ</span>
+                </div>
+              </div>
+              <div class="book-item">
+                <img
+                  src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                  alt="Sách sống đẹp không khó"
+                />
+                <div class="book-info">
+                  <span class="book-title">Cây cam ngọt của tôi</span>
+                  <label>Tác giả: </label
+                  ><span class="book-author">José Mauro de Vasconcelos</span>
+                  <label>Giá: </label><span class="book-price">150.000đ</span>
+                </div>
+              </div>
+              <div class="book-item">
+                <img
+                  src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                  alt="Sách sống đẹp không khó"
+                />
+                <div class="book-info">
+                  <span class="book-title">Cây cam ngọt của tôi</span>
+                  <label>Tác giả: </label
+                  ><span class="book-author">José Mauro de Vasconcelos</span>
+                  <label>Giá: </label><span class="book-price">150.000đ</span>
+                </div>
+              </div>
+              <div class="book-item">
+                <img
+                  src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                  alt="Sách sống đẹp không khó"
+                />
+                <div class="book-info">
+                  <span class="book-title">Cây cam ngọt của tôi</span>
+                  <label>Tác giả: </label
+                  ><span class="book-author">José Mauro de Vasconcelos</span>
+                  <label>Giá: </label><span class="book-price">150.000đ</span>
+                </div>
+              </div>
+              <div class="book-item">
+                <img
+                  src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                  alt="Sách sống đẹp không khó"
+                />
+                <div class="book-info">
+                  <span class="book-title">Cây cam ngọt của tôi</span>
+                  <label>Tác giả: </label
+                  ><span class="book-author">José Mauro de Vasconcelos</span>
+                  <label>Giá: </label><span class="book-price">150.000đ</span>
+                </div>
+              </div>
+              <div class="book-item">
+                <img
+                  src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                  alt="Sách sống đẹp không khó"
+                />
+                <div class="book-info">
+                  <span class="book-title">Cây cam ngọt của tôi</span>
+                  <label>Tác giả: </label
+                  ><span class="book-author">José Mauro de Vasconcelos</span>
+                  <label>Giá: </label><span class="book-price">150.000đ</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Đây là phần footer chứa các thông tin về trang web -->
+      <div class="footer"></div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/f7f8647fe8.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="home.js"></script> -->
+  </body>
+</html>

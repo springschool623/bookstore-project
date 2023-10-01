@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="cart.css" />
+    <link
+      rel="icon"
+      href="https://cdn0.fahasa.com/media/favicon/default/favicon4.ico"
+      type="image/x-icon"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Đây là phần header chứa logo và menu -->
+      <!-- Sửa đổi phần header để thêm logo, search bar và tag -->
+      <div class="header">
+        <a href="home.html">
+          <!-- Thêm một thẻ img để hiển thị logo của trang web -->
+          <img
+            src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/fahasa-logo.png"
+            alt="Logo"
+            width="260"
+            height="80"
+          />
+        </a>
+
+        <!-- Thêm một thẻ form để tạo thanh search bar -->
+        <form class="search-bar">
+          <!-- Thêm một thẻ input để tạo ô nhập tìm kiếm -->
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Nhập từ khóa..."
+          />
+          <!-- Thêm một thẻ button để tạo nút tìm kiếm -->
+          <button type="submit" class="search-button">
+            <i
+              class="fa-solid fa-magnifying-glass"
+              style="color: #ffffff; font-size: 16px"
+            ></i>
+          </button>
+        </form>
+        <!-- Sửa đổi phần menu để thay đổi các tag -->
+        <ul class="menu">
+          <li>
+            <a href="">
+              <i class="fa-solid fa-book"></i>
+              <span>Danh mục</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>Hỗ trợ</span>
+            </a>
+          </li>
+          <li>
+            <a href="user-account.html">
+              <i class="fa-solid fa-user"></i>
+              <span>Tài khoản</span>
+            </a>
+          </li>
+          <li class="cart">
+            <a href="cart.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>Giỏ hàng</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Đây là phần content chứa nội dung chính -->
+      <div class="content">
+        <div class="user-info">
+          <h1>Chi tiết giỏ hàng</h1>
+          <table>
+            <thead>
+              <tr>
+                <th class="left-cell">Sản phẩm</th>
+                <th class="center-cell">&nbsp;</th>
+                <th class="right-cell">Đơn giá</th>
+                <th class="right-cell">Số lượng</th>
+                <th class="right-cell">Tổng giá</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="left-cell">
+                  <div class="cart-product">
+                    <img
+                      src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_217480.jpg"
+                      alt="Sách sống đẹp không khó"
+                    />
+                  </div>
+                </td>
+                <td class="center-cell">
+                  <div class="cart-proinfo">
+                    <a href="">
+                      <h3>Cây cam ngọt của tôi</h3>
+                    </a>
+                    <div class="barcode-info">
+                      <label>Barcode: </label><span>978024199896</span>
+                    </div>
+                  </div>
+                </td>
+                <td class="right-cell price-info">
+                  <div class="pro-price">
+                    <span>100.000đ</span>
+                  </div>
+                </td>
+                <td class="right-cell"></td>
+                <td class="right-cell">
+                  <div class="total-price">
+                    <span>100.000đ</span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- Đây là phần footer chứa các thông tin về trang web -->
+      <div class="footer"></div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/f7f8647fe8.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

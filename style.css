@@ -1,0 +1,94 @@
+/* Đây là phần CSS để thiết kế giao diện cho trang web */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: rgb(245, 245, 245);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #e25e3e;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+.header img {
+  object-fit: contain;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.menu li {
+  margin: 0 30px;
+}
+.menu .cart {
+  margin-left: 100px;
+}
+.menu li a {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+.menu li i {
+  margin: auto;
+  margin-bottom: 5px;
+  font-size: 28px;
+  color: #fff;
+}
+
+/* Thêm một class search-bar để thiết kế cho thanh search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ff9b50;
+  /* border-radius: 5px; */
+  margin: 0 10px;
+}
+
+/* Thêm một class search-input để thiết kế cho ô nhập tìm kiếm */
+.search-input {
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+/* Thêm một class search-button để thiết kế cho nút tìm kiếm */
+.search-button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #ff9b50;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer {
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 0 20px;
+  border-top: 2px solid #e25e3e;
+}

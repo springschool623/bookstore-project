@@ -1,0 +1,29 @@
+.user-info {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 120px;
+}
+
+.user-info h1 {
+  border-bottom: 1px solid #000;
+  margin-bottom: 25px;
+}
+
+.user-info .detail-info {
+  margin: 10px 0;
+}
+
+.user-info h3 {
+  margin: 20px 0;
+}
+
+.user-info .detail-info h5 {
+  margin-bottom: 5px;
+}
+
+.user-info .detail-info input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ff9b50;
+  outline: none;
+}
